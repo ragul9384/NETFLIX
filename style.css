@@ -1,0 +1,79 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url('https://bit.ly/2E3scwW');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    width:124.7px;
+    height: 74px;
+    background-image: url('https://bit.ly/2VdIFUK');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.form{
+    width: 400px;
+    height: 600px;
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+ padding: 10PX;
+ border-radius: 5PX;
+}
+.form h1{
+    color: whitesmoke;
+    margin: 10px 10px;
+}
+ .form input{
+    width: 70%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: block;
+    border: none;
+ outline: none;
+ background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)); 
+ border-radius: 5PX;
+ }
+ .content{
+    margin-top: 115px;
+    margin-left: 50px;
+ }
+ button{
+    margin-top: 20px;
+    border-bottom: 20px;
+    width: 70%;
+    padding: 10px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 5PX;
+ }
+ .content label{
+   position: relative;
+   top: 10px;
+   padding: 20px;
+   color: white;
+
+ }
+ ::placeholder{
+   color: azure;
+   font-size: 15px;
+ }
